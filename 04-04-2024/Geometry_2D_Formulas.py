@@ -55,31 +55,32 @@ elif(s==5):
     b,h = map(int, input("Enter ground and hight : ").split())
     print(f"Perimeter of triangle : {Triangle_Perimeter(a,b,c)}")
     print(f"Area of triangle : {Triangle_Area(b,h)}")
-if(s==6): 
+elif(s==6): 
     r,h = map(int, input("Enter radius and hight : ").split())
     print(f"Area of cylinder : {Cylinder_Area(r,h)}")
     print(f"Volume of cylinder : {Cylinder_Volume(r,h)}")
-if(s==7):
+elif(s==7):
     r = map(int, input("Enter radius : ").split())
     r,h = map(int, input("Enter radius and hight : ").split())
     print(f"Area of sphere : {Sphere_Area(r)}")
     print(f"Volume of sphere : {Sphere_Volume(r,h)}")
-if(s==8):
+elif(s==8):
     r,s = map(int, input("Enter radius and side : ").split())
     r,h = map(int, input("Enter radius and hight : ").split())
     print(f"Area of cone : {Cone_Area(r,s)}")
     print(f"Volume of cone : {Cone_Volume(r,h)}")
-if(s==10):
+elif(s==10):
     b,s = map(int, input("Enter ground and mid of ground : ").split())
     b,h = map(int, input("Enter ground and hight : ").split())
     print(f"Area of Square-based pyramid : {SquareBasedPyramid_Area(b,s)}")
     print(f"Volume of Square-based pyramid : {SquareBasedPyramid_Volume(b,h)}")
-if(s==10):
+elif(s==10):
     l,w,h = map(int, input("Enter lenth, width and hight : ").split())
     print(f"Area of rectangular prism : {RectangularPrism_Area(l,w,h)}")
     print(f"Volume of rectangular prism : {RectangularPrism_Volume(l,w,h)}")
-if(s==11):
+elif(s==11):
     a,b,c,l,h = map(int, input("Enter 3 side of triangle, mid of triangle and hight : ").split())
     b,l,h = map(int, input("Enter ground of triangle, mid of triangle and hight : ").split())
     print(f"Area of triangular prism : {TriangularPrism_Area(a,b,c,l,h)}")
     print(f"Volume of triangular prism: {TriangularPrism_Volume(b,l,h)}")
+else: print("Wrong Input!")
