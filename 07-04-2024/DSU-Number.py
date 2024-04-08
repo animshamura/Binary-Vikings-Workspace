@@ -26,7 +26,7 @@ while(True):
 		s = int(input("Enter source: "))
 		sub = list(map(int, input("Enter subordinates list: ").split()))
 		unifier(s,sub)
-		print(f"After change: (p)")
+		print(f"After change: {p}")
 	elif(c==2):
     	s1 = int(input("Enter source: "))
     	finder (s1)
