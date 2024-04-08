@@ -1,4 +1,4 @@
-p=list(x for x in range(1,21))
+p=list(x for x in range(0,21))
 def find(x):
 	if(p[x]==x): return x
 	else:
